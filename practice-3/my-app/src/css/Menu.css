@@ -1,0 +1,15 @@
+.container-menu {
+    width: 100%;
+}
+
+.container-order {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+}
+.displayNone{
+    display: none;
+}
+.display{
+    display: block;
+}
