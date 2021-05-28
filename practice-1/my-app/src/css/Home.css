@@ -1,0 +1,67 @@
+.parent-container-home {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+}
+
+.container-home {
+    width: 90%;
+    height: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    overflow: auto;
+    
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.container-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.parent-input {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.parent-input input {
+    text-align: center;
+
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.icon-parent-add {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    background-color: #51859e;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-add {
+    color: white;
+    font-size: 30px;
+}
+.displayNone{
+    opacity: 0;
+}
+.display{
+    opacity: 1;
+}

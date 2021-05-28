@@ -1,0 +1,64 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 150px;
+    height: 200px;
+    margin-top: 15px;
+    background-color: #1e4962;
+    color: white;
+    padding: 10px;
+
+}
+
+input {
+    border: none;
+    background-color: inherit;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    width: 70%;
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=email]:focus {
+    outline: none;
+}
+
+.closeCard {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.closeCard:hover{
+    color:red;
+}
+.parent-img{
+    width: 40%;
+}
+.parent-img img{
+    width: 100%;
+border-radius: 50%;
+
+}
+.parent-inputs-home{
+    margin-top: 20px;
+}
+.label{
+    position: absolute;
+    top:0;
+    right:10px;
+    color:red;
+}
+.parent-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edit{
+color:red;
+}
