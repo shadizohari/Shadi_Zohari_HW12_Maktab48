@@ -1,0 +1,11 @@
+.input{
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  
+  ::placeholder{
+    text-align: center;
+  }
